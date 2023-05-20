@@ -45,4 +45,10 @@ function game() {
         }
         console.log(round + " " + playerScore + " - " + computerScore)
     }
+
+    if (playerScore > computerScore){
+        return "You won the full game!";
+    } else {
+        return "The computer won the full game!";
+    }
 }
